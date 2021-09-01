@@ -4,6 +4,7 @@ import locations from "./store/location";
 import formUI from "./views/form";
 import currencyUI from "./views/currency";
 import ticketsUI from "./views/tickets";
+import favoriteTickets from "./store/favoriteTickets";
 
 document.addEventListener("DOMContentLoaded", () => {
   initApp();
